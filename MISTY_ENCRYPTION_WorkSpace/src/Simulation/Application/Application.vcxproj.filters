@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="aes.c" />
+    <ClCompile Include="aes_run.c" />
+    <ClCompile Include="Application.c" />
+    <ClCompile Include="BSM.c" />
+    <ClCompile Include="CoAP.c" />
+    <ClCompile Include="Database_FTP_Custom.c" />
+    <ClCompile Include="des.c" />
+    <ClCompile Include="des_run.c" />
+    <ClCompile Include="Distribution.c" />
+    <ClCompile Include="Emulation_application.c" />
+    <ClCompile Include="Encryption.c" />
+    <ClCompile Include="Multicast.c" />
+    <ClCompile Include="RandomNumber.c" />
+    <ClCompile Include="misty_run.c" />
+    <ClCompile Include="misty1.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aes.h" />
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="CoAP.h" />
+  </ItemGroup>
+</Project>

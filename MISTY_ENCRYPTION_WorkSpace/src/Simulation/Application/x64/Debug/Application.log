@@ -1,0 +1,43 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  aes.c
+  aes_run.c
+  Application.c
+e:\application_engineering\misty_encryption_v11.1\misty_encryption_workspace\src\simulation\application\application.c(716): warning C4013: 'encryptBlock' undefined; assuming extern returning int
+e:\application_engineering\misty_encryption_v11.1\misty_encryption_workspace\src\simulation\application\application.c(718): warning C4013: 'misty_run' undefined; assuming extern returning int
+e:\application_engineering\misty_encryption_v11.1\misty_encryption_workspace\src\simulation\application\application.c(721): warning C4013: 'des' undefined; assuming extern returning int
+  BSM.c
+  CoAP.c
+  Database_FTP_Custom.c
+  des.c
+  des_run.c
+  Distribution.c
+  Emulation_application.c
+  Encryption.c
+  misty1.c
+  misty_run.c
+e:\application_engineering\misty_encryption_v11.1\misty_encryption_workspace\src\simulation\application\misty_run.c(20): warning C4013: 'misty1_main' undefined; assuming extern returning int
+e:\application_engineering\misty_encryption_v11.1\misty_encryption_workspace\src\simulation\application\misty_run.c(13): warning C4101: 'key': unreferenced local variable
+  Multicast.c
+  RandomNumber.c
+  Generating Code...
+e:\application_engineering\misty_encryption_v11.1\misty_encryption_workspace\src\simulation\application\misty1.c(337): warning C4716: 'misty1_main': must return a value
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(E:\Application_Engineering\MISTY_ENCRYPTION_v11.1\MISTY_ENCRYPTION_WorkSpace\src\Simulation\Application\..\..\..\bin\bin_x64\Application.dll) does not match the Linker's OutputFile property value (E:\Application_Engineering\MISTY_ENCRYPTION_v11.1\MISTY_ENCRYPTION_WorkSpace\bin\bin_x64\libApplication.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1218,5): warning MSB8012: TargetName(Application) does not match the Linker's OutputFile property value (libApplication). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+aes.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  Application.lib(HTTP.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+aes.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     Creating library ..\..\..\bin\bin_x64\Application.lib and object ..\..\..\bin\bin_x64\Application.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+Application.lib(HTTP.obj) : warning LNK4099: PDB 'ApplicationLib.pdb' was not found with 'Application.lib(HTTP.obj)' or at 'E:\Application_Engineering\MISTY_ENCRYPTION_v11.1\MISTY_ENCRYPTION_WorkSpace\bin\bin_x64\ApplicationLib.pdb'; linking object as if no debug info
+Application.lib(Video.obj) : warning LNK4099: PDB 'ApplicationLib.pdb' was not found with 'Application.lib(Video.obj)' or at 'E:\Application_Engineering\MISTY_ENCRYPTION_v11.1\MISTY_ENCRYPTION_WorkSpace\bin\bin_x64\ApplicationLib.pdb'; linking object as if no debug info
+Application.lib(Voice.obj) : warning LNK4099: PDB 'ApplicationLib.pdb' was not found with 'Application.lib(Voice.obj)' or at 'E:\Application_Engineering\MISTY_ENCRYPTION_v11.1\MISTY_ENCRYPTION_WorkSpace\bin\bin_x64\ApplicationLib.pdb'; linking object as if no debug info
+Application.lib(P2P.obj) : warning LNK4099: PDB 'ApplicationLib.pdb' was not found with 'Application.lib(P2P.obj)' or at 'E:\Application_Engineering\MISTY_ENCRYPTION_v11.1\MISTY_ENCRYPTION_WorkSpace\bin\bin_x64\ApplicationLib.pdb'; linking object as if no debug info
+Application.lib(Email.obj) : warning LNK4099: PDB 'ApplicationLib.pdb' was not found with 'Application.lib(Email.obj)' or at 'E:\Application_Engineering\MISTY_ENCRYPTION_v11.1\MISTY_ENCRYPTION_WorkSpace\bin\bin_x64\ApplicationLib.pdb'; linking object as if no debug info
+Application.lib(ErlangCall.obj) : warning LNK4099: PDB 'ApplicationLib.pdb' was not found with 'Application.lib(ErlangCall.obj)' or at 'E:\Application_Engineering\MISTY_ENCRYPTION_v11.1\MISTY_ENCRYPTION_WorkSpace\bin\bin_x64\ApplicationLib.pdb'; linking object as if no debug info
+Application.lib(libApplication.obj) : warning LNK4099: PDB 'ApplicationLib.pdb' was not found with 'Application.lib(libApplication.obj)' or at 'E:\Application_Engineering\MISTY_ENCRYPTION_v11.1\MISTY_ENCRYPTION_WorkSpace\bin\bin_x64\ApplicationLib.pdb'; linking object as if no debug info
+Application.lib(App_Metrics.obj) : warning LNK4099: PDB 'ApplicationLib.pdb' was not found with 'Application.lib(App_Metrics.obj)' or at 'E:\Application_Engineering\MISTY_ENCRYPTION_v11.1\MISTY_ENCRYPTION_WorkSpace\bin\bin_x64\ApplicationLib.pdb'; linking object as if no debug info
+list.lib(List.obj) : warning LNK4099: PDB 'List.pdb' was not found with 'list.lib(List.obj)' or at 'E:\Application_Engineering\MISTY_ENCRYPTION_v11.1\MISTY_ENCRYPTION_WorkSpace\bin\bin_x64\List.pdb'; linking object as if no debug info
+IP.lib(IPLib.obj) : warning LNK4099: PDB 'IPLib.pdb' was not found with 'IP.lib(IPLib.obj)' or at 'E:\Application_Engineering\MISTY_ENCRYPTION_v11.1\MISTY_ENCRYPTION_WorkSpace\bin\bin_x64\IPLib.pdb'; linking object as if no debug info
+  Application.vcxproj -> E:\Application_Engineering\MISTY_ENCRYPTION_v11.1\MISTY_ENCRYPTION_WorkSpace\src\Simulation\Application\..\..\..\bin\bin_x64\Application.dll
